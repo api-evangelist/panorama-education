@@ -1,0 +1,27 @@
+# Panorama Education
+
+> Panorama Education is a K-12 education technology company providing a student
+> success platform used by school districts to turn student data into action —
+> academic and behavior (MTSS/RTI), universal screening, social-emotional
+> learning (SEL) and survey instruments, attendance, graduation planning, and
+> family/staff engagement. Panorama has no public self-service developer API;
+> integrations are delivered as nightly B2B data sync with student information
+> systems (via the OneRoster standard and SFTP), not a documented REST API.
+
+## Company
+- [Website](https://www.panoramaed.com/): Panorama Education home
+- [Integrations](https://www.panoramaed.com/products/student-success/integrations): SIS/LMS/assessment data integrations (OneRoster, SFTP, nightly sync)
+- [Blog](https://www.panoramaed.com/blog): Panorama Education blog
+- [Contact](https://www.panoramaed.com/about/contact): Contact Panorama
+- [FAQs](https://www.panoramaed.com/about/faqs): Frequently asked questions / support
+
+## Privacy, Security & Trust
+- [Data Privacy, Safety & Trust](https://www.panoramaed.com/about/privacy/safety-trust): Trust center — SOC 2 Type 2, 1EdTech Data Privacy, ESSA Level II/IV, Student Privacy Pledge
+- [Website Privacy Policy](https://www.panoramaed.com/about/privacy/website-privacy-policy)
+- [Client Information Policy](https://www.panoramaed.com/about/privacy/client-information-policy)
+- [Terms of Service](https://www.panoramaed.com/terms-of-service)
+
+## Integration Standards
+- OneRoster (data import standard for roster/SIS data)
+- Nightly synchronization with 24+ Student Information Systems (PowerSchool, Infinite Campus, Skyward, Aspen, Synergy, Tyler SIS, and others)
+- Secure File Transfer (SFTP) for district data files

@@ -1,0 +1,30 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.panoramaed.com/about/privacy/safety-trust
+probe: false
+url: https://www.panoramaed.com/about/privacy/safety-trust
+certifications:
+  - SOC 2 Type 2
+  - 1EdTech Data Privacy Certification
+  - ESSA Level II
+  - ESSA Level IV
+  - Student Privacy Pledge
+  - Common Sense Privacy
+  - TrustEd Apps Data Privacy Certified
+compliance:
+  - FERPA
+  - COPPA
+  - PPRA
+  - CCPA
+security_controls:
+  - "Administrative, technical, and physical security controls"
+  - "Full disk encryption on company devices"
+  - "Automatic device lockout and mandatory strong passwords"
+  - "US-based servers"
+  - "Privacy-by-Design engineering approach"
+contact:
+  security: security@panoramaed.com
+  privacy: privacy@panoramaed.com
+evidence:
+  - source: https://www.panoramaed.com/about/privacy/safety-trust
+    keywords: [soc 2 type 2, essa, 1edtech, student privacy pledge, ferpa, coppa]

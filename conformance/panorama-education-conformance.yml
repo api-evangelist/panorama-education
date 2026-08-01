@@ -1,0 +1,41 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.panoramaed.com/about/privacy/safety-trust
+docs: https://www.panoramaed.com/products/student-success/integrations
+standards:
+  - id: oneroster
+    conforms: true
+    evidence: "Integrations page states district data files are imported via SFTP aligned to the OneRoster data standard; nightly SIS sync."
+  - id: soc2-type2
+    conforms: true
+    evidence: "Safety, Privacy & Trust page lists SOC 2 Type 2 attestation."
+  - id: essa
+    conforms: true
+    evidence: "ESSA Level II and Level IV evidence badges displayed (Every Student Succeeds Act)."
+  - id: 1edtech-data-privacy
+    conforms: true
+    evidence: "1EdTech (IMS Global) Data Privacy Certification / TrustEd Apps data privacy certified badge."
+  - id: ferpa
+    conforms: true
+    evidence: "Privacy statement asserts compliance with the Family Educational Rights and Privacy Act (FERPA)."
+  - id: coppa
+    conforms: true
+    evidence: "Privacy statement asserts compliance with the Children's Online Privacy Protection Act (COPPA)."
+  - id: ppra
+    conforms: true
+    evidence: "Privacy statement asserts compliance with the Protection of Pupil Rights Amendment (PPRA)."
+  - id: ccpa
+    conforms: true
+    evidence: "Privacy statement addresses the California Consumer Privacy Act (CCPA); Notice to California Residents published."
+  - id: student-privacy-pledge
+    conforms: true
+    evidence: "Panorama is a signatory of the Student Privacy Pledge."
+  - id: common-sense-privacy
+    conforms: true
+    evidence: "Common Sense Privacy program badge referenced on the trust page."
+  - id: oauth2
+    conforms: false
+    evidence: "No public OAuth2/OIDC developer surface published; integrations are B2B nightly data sync, not a self-service API."
+  - id: rfc9457-problem-details
+    conforms: false
+    evidence: "No public OpenAPI/API error contract published."

@@ -1,8 +1,17 @@
 aid: panorama-education
 name: Panorama Education
-description: Panorama Education is a company surfaced as a portfolio company of a16z, gv, initialized-capital,
-  uncork-capital, y-combinator and added to the API Evangelist network as a stub for enrichment. This
-  profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Panorama Education is a K-12 education technology company whose student success
+  platform is used by thousands of school districts to turn student data into
+  action across academics and behavior (MTSS/RTI), universal screening, social-
+  emotional learning (SEL) and survey instruments, attendance, graduation
+  planning, and family and staff engagement. The platform ingests data nightly
+  from 24+ student information systems, learning management systems, and 100+
+  benchmark and state assessments using the OneRoster standard and secure file
+  transfer. Panorama does not publish a public self-service developer API;
+  integrations are delivered as managed B2B data synchronization. The company is
+  SOC 2 Type 2 attested, 1EdTech Data Privacy certified, ESSA Level II/IV rated,
+  and a Student Privacy Pledge signatory (FERPA/COPPA/PPRA/CCPA aligned).
 url: https://raw.githubusercontent.com/api-evangelist/panorama-education/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,11 +23,30 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.panoramaed.com/hubfs/panorama-education-district-view.png
 tags:
 - Company
+- Education
+- EdTech
+- K-12
+- Student Success
+- Social Emotional Learning
+- Analytics
+- Surveys
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,4 +55,33 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://panoramaed.com
+  url: https://www.panoramaed.com
+- type: Integrations
+  url: https://www.panoramaed.com/products/student-success/integrations
+- type: Blog
+  url: https://www.panoramaed.com/blog
+- type: Support
+  url: https://www.panoramaed.com/about/faqs
+- type: PrivacyPolicy
+  url: https://www.panoramaed.com/about/privacy/website-privacy-policy
+- type: TermsOfService
+  url: https://www.panoramaed.com/terms-of-service
+- type: SignUp
+  url: https://www.panoramaed.com/demo
+- type: TrustCenter
+  url: https://www.panoramaed.com/about/privacy/safety-trust
+- type: Compliance
+  url: https://www.panoramaed.com/about/privacy/safety-trust
+- type: Conformance
+  url: conformance/panorama-education-conformance.yml
+- type: DomainSecurity
+  url: security/panorama-education-domain-security.yml
+- type: WellKnown
+  url: well-known/panorama-education-well-known.yml
+- type: LLMsTxt
+  url: llms/panorama-education-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
